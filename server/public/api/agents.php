@@ -10,6 +10,9 @@
         case 'GET':
             require_once('agents_get.php');
             break;
+        case 'POST':
+            require_once('agents_post.php');
+            break;
     }
 
 ?>
