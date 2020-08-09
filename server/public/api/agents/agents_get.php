@@ -29,7 +29,7 @@ if ($get_result) {
     print($json_res);
   } else {
     http_response_code(404);
-    throw new Exception("Agents are empty");
+    throw new Exception("No agents found");
   }
 } else {
   http_response_code(500);

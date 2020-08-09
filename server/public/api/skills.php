@@ -8,7 +8,7 @@
 
     switch($_SERVER['REQUEST_METHOD']){
         case 'GET':
-            require_once('agents_get_skills.php');
+            require_once('./skills/agents_get_skills.php');
             break;
     }
 
